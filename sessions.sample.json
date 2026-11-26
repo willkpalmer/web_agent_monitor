@@ -1,0 +1,103 @@
+{
+ "generated_at": "2026-11-26T00:52:59.701875Z",
+ "sessions": [
+  {
+   "id": "session_sample01",
+   "title": "Refactor auth middleware",
+   "session_status": "SESSION_STATUS_IDLE",
+   "status_bucket": "SESSION_STATUS_BUCKET_BLOCKED",
+   "updated_at": "2026-11-26T00:42:59.701875Z",
+   "created_at": "2026-11-25T23:42:59.701875Z",
+   "post_turn_summary": {
+    "needs_action": "Approve the migration plan before I run it against staging."
+   },
+   "unread": true,
+   "environment_kind": "anthropic_cloud"
+  },
+  {
+   "id": "session_sample02",
+   "title": "Fix flaky CI tests",
+   "session_status": "SESSION_STATUS_IDLE",
+   "status_bucket": "SESSION_STATUS_BUCKET_REVIEW_READY",
+   "updated_at": "2026-11-26T00:09:59.701875Z",
+   "created_at": "2026-11-25T23:09:59.701875Z",
+   "post_turn_summary": {
+    "recent_action": "PR opened with three test fixes; all checks green."
+   },
+   "unread": true,
+   "environment_kind": "anthropic_cloud"
+  },
+  {
+   "id": "session_sample03",
+   "title": "Data import script",
+   "session_status": "SESSION_STATUS_IDLE",
+   "status_bucket": "SESSION_STATUS_BUCKET_FAILED",
+   "updated_at": "2026-11-25T23:24:59.701875Z",
+   "created_at": "2026-11-25T22:24:59.701875Z",
+   "post_turn_summary": {
+    "recent_action": "Run stopped: the source CSV has an unexpected header row."
+   },
+   "unread": false,
+   "environment_kind": "bridge"
+  },
+  {
+   "id": "session_sample04",
+   "title": "Build landing page",
+   "session_status": "SESSION_STATUS_RUNNING",
+   "status_bucket": "SESSION_STATUS_BUCKET_WORKING",
+   "updated_at": "2026-11-26T00:53:59.701875Z",
+   "created_at": "2026-11-25T23:53:59.701875Z",
+   "post_turn_summary": {},
+   "unread": false,
+   "environment_kind": "anthropic_cloud"
+  },
+  {
+   "id": "session_sample05",
+   "title": "Home automation config",
+   "session_status": "SESSION_STATUS_RUNNING",
+   "status_bucket": "SESSION_STATUS_BUCKET_WORKING",
+   "updated_at": "2026-11-26T00:50:59.701875Z",
+   "created_at": "2026-11-25T23:50:59.701875Z",
+   "post_turn_summary": {
+    "recent_action": "Validating the new sensor templates."
+   },
+   "unread": false,
+   "environment_kind": "bridge"
+  },
+  {
+   "id": "session_sample06",
+   "title": "Dependency upgrades",
+   "session_status": "SESSION_STATUS_IDLE",
+   "status_bucket": "SESSION_STATUS_BUCKET_COMPLETED",
+   "updated_at": "2026-11-25T19:54:59.701875Z",
+   "created_at": "2026-11-25T18:54:59.701875Z",
+   "post_turn_summary": {
+    "recent_action": "All packages bumped; lockfile committed."
+   },
+   "unread": false,
+   "environment_kind": "anthropic_cloud"
+  },
+  {
+   "id": "session_sample07",
+   "title": "Notes cleanup",
+   "session_status": "SESSION_STATUS_IDLE",
+   "status_bucket": "SESSION_STATUS_BUCKET_COMPLETED",
+   "updated_at": "2026-11-24T22:14:59.701875Z",
+   "created_at": "2026-11-24T21:14:59.701875Z",
+   "post_turn_summary": {},
+   "unread": false,
+   "environment_kind": "bridge"
+  },
+  {
+   "id": "session_sample08",
+   "title": "Old experiment",
+   "session_status": "SESSION_STATUS_ARCHIVED",
+   "status_bucket": "SESSION_STATUS_BUCKET_COMPLETED",
+   "updated_at": "2026-11-19T18:54:59.701875Z",
+   "created_at": "2026-11-19T17:54:59.701875Z",
+   "post_turn_summary": {},
+   "unread": false,
+   "environment_kind": "anthropic_cloud"
+  }
+ ]
+}
